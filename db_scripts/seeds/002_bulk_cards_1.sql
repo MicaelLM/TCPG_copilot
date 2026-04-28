@@ -1,0 +1,22 @@
+INSERT INTO tbl_cards (hp, name, informacoes, attack, damage, weak, ressis, retreat, cardNumberInCollection, collection_id, type_id, stage_id)
+VALUES
+(60, 'Charmander', 'Lizard Pokémon', 'Scratch', '10', 'Water', NULL, '1 Colorless', 46, 1, 1, 1),
+(50, 'Squirtle', 'Tiny Turtle Pokémon', 'Bubble', '10', 'Electric', NULL, '1 Colorless', 7, 1, 2, 1),
+(40, 'Pikachu', 'Mouse Pokémon', 'Thunder Jolt', '30', 'Fighting', NULL, '1 Colorless', 58, 1, 4, 1),
+(70, 'Ivysaur', 'Seed Pokémon', 'Vine Whip', '30', 'Fire', NULL, '2 Colorless', 30, 1, 3, 2),
+(90, 'Charizard', 'Flame Pokémon', 'Fire Spin', '100', 'Water', NULL, '3 Colorless', 4, 1, 1, 3),
+(60, 'Bulbasaur', 'Seed Pokémon', 'Leech Seed', '20', 'Fire', NULL, '1 Colorless', 44, 1, 3, 1),
+(80, 'Wartortle', 'Turtle Pokémon', 'Water Gun', '40', 'Electric', NULL, '1 Colorless', 42, 1, 2, 2),
+(100, 'Blastoise', 'Shellfish Pokémon', 'Hydro Pump', '60', 'Electric', NULL, '3 Colorless', 2, 1, 2, 3),
+(50, 'Jigglypuff', 'Balloon Pokémon', 'Pound', '20', 'Fighting', NULL, '1 Colorless', 54, 1, 7, 1),
+(60, 'Meowth', 'Scratch Cat Pokémon', 'Pay Day', '20', 'Fighting', NULL, '1 Colorless', 56, 1, 7, 1),
+(70, 'Kangaskhan', 'Parent Pokémon', 'Comet Punch', '20x', 'Fighting', NULL, '3 Colorless', 5, 2, 7, 1),
+(60, 'Scyther', 'Mantis Pokémon', 'Slash', '30', 'Fire', NULL, '1 Colorless', 10, 2, 3, 1),
+(80, 'Electrode', 'Ball Pokémon', 'Explosion', '80', 'Fighting', NULL, '1 Colorless', 21, 2, 4, 2),
+(90, 'Snorlax', 'Sleeping Pokémon', 'Body Slam', '30', 'Fighting', NULL, '4 Colorless', 11, 2, 7, 1),
+(60, 'Cubone', 'Lonely Pokémon', 'Bone Club', '20', 'Grass', NULL, '1 Colorless', 50, 3, 6, 1),
+(70, 'Hitmonlee', 'Kicking Pokémon', 'Stretch Kick', '30', 'Psychic', NULL, '1 Colorless', 7, 3, 6, 1),
+(80, 'Aerodactyl', 'Fossil Pokémon', 'Wing Attack', '30', 'Electric', NULL, '2 Colorless', 1, 3, 7, 2),
+(60, 'Gastly', 'Gas Pokémon', 'Lick', '10', 'Psychic', NULL, '1 Colorless', 33, 3, 5, 1),
+(70, 'Haunter', 'Gas Pokémon', 'Nightmare', '20', 'Psychic', NULL, '1 Colorless', 25, 3, 5, 2),
+(100, 'Gengar', 'Shadow Pokémon', 'Dark Mind', '30', 'Psychic', NULL, '3 Colorless', 5, 3, 5, 3);
